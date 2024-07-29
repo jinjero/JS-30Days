@@ -19,23 +19,24 @@ html, body {
 }
 
 .key {
-  border: .4rem solid #000;
+  border: .3rem solid rgba(0,0,0,0.4);
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem; /* 상하, 좌우 */
   transition: all 0.07s ease;
-  width: 10rem;
+  width: 12rem;
   text-align: center;
   color: white;
   background-color: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
+  box-sizing: border-box;
 }
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #bc0404;
+  box-shadow: 0 0 5rem #bc0404;
 }
 
 .key kbd {
@@ -46,5 +47,5 @@ html, body {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #e90101;
 }
